@@ -53,5 +53,4 @@ public class Life {
         System.out.println(this.name + "의 HP = " + this.hp + " MP = " + this.mp);
     }
 
-
 }
