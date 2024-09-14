@@ -1,10 +1,15 @@
 package com.ohgiraffers.homework01;
 
+import java.util.Scanner;
+
 public class Life {
 
     private String name;
     private int hp;
     private int mp;
+
+    Walk walk = new Walk();
+    Scanner scr = new Scanner(System.in);
 
     public void Sponge () {
 
@@ -51,6 +56,17 @@ public class Life {
     public void back (String name, int hp, int mp) {
 
         System.out.println(this.name + "의 HP = " + this.hp + " MP = " + this.mp);
+        System.out.print("이제 뭘 할까요? : ");
+        int sc = scr.nextInt();
+        switch (sc) {
+            case 2 :
+                walk.Recover();
+                break;
+            case 3 :
+            case 4 :
+            default :
+
+        }
     }
 
 }

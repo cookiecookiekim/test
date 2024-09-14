@@ -29,19 +29,22 @@ public class Application {
                 switch (chose2) {
                     case 1:
                         life.Sponge();
-                        walk.Recover();
                         break;
                     case 2:
                         life.Squid();
+                        walk.Recover();
                         break;
                     case 3:
                         life.ddoong();
+                        walk.Recover();
                         break;
                     case 4:
                         life.ping();
+                        walk.Recover();
                         break;
                     case 5:
                         life.ming();
+                        walk.Recover();
                         break;
                     default:
                         System.out.println("잘못 누르셨습니다. 1~5번 중에 선택해 주세요.");
