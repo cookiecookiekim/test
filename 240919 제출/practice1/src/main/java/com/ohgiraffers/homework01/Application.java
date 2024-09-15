@@ -14,7 +14,7 @@ public class Application {
         System.out.println("다마고치 키우기 게임을 시작합니다.");
         System.out.println("1. 캐릭터 선택 (1. 스폰지밥 2. 징징이 3. 뚱이 4. 핑핑이 5. 밍밍이)");
         System.out.println("2. 산책하기");
-        System.out.println("3. 먹기");
+        System.out.println("3. 먹기 (게살버거 : HP 10 상승 / 콜라 : MP 10 상승)");
         System.out.println("4. 잠자기");
         System.out.println("9. 프로그램 종료");
         System.out.println("===========================================\"");

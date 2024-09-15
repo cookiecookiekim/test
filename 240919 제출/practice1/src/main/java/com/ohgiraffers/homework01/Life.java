@@ -9,6 +9,8 @@ public class Life {
     private int mp;
 
     Walk walk = new Walk();
+    Eat eat = new Eat();
+    Sleep sleep = new Sleep();
     Scanner scr = new Scanner(System.in);
 
     public void Sponge () {
@@ -63,8 +65,21 @@ public class Life {
                 walk.Recover();
                 break;
             case 3 :
+                System.out.print("게살버거 먹기(1번) / 콜라 마시기(2번) : ");
+                int scr2 = scr.nextInt();
+                if (scr2 == 1) {
+                    eat.bugger();
+                } else if (scr2 == 2) {
+                    eat.coke();
+                } else {
+                    System.out.println("으아 뭘 넣을ㄹ까");
+                }
+                break;
             case 4 :
+                sleep.deepSleep();
+                break;
             default :
+
 
         }
     }

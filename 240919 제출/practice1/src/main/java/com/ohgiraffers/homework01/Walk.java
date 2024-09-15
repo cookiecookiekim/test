@@ -2,11 +2,14 @@ package com.ohgiraffers.homework01;
 
 public class Walk {
 
+    Attack attack = new Attack();
+
     private int hp;
     private int mp;
 
     public void Recover () {
 
+        attack.poison();
         if (hp < 100) {
             hp += 10;
             mp -= 10;
