@@ -2,10 +2,7 @@ package com.ohgiraffers.homework01;
 
 import java.util.Random;
 
-public class Attack {
-
-    private int hp;
-    private int mp;
+public class Attack extends Walk {
 
     Random random = new Random();
     int ran = random.nextInt(3);
@@ -21,6 +18,7 @@ public class Attack {
             default :
                 System.out.println("다행히 해파리는 당신을 인식하지 못했습니다.");
         }
+        // 이제 뭘 할까요 창으로 넘어가야..
 
     }
 }
