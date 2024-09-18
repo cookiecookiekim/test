@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Application {
 
-    static Pet pet = new Pet();
+    static Pet pet = new Pet(); // Pet 인스턴스 생성
 
     public static void main(String[] args) {
 
@@ -22,18 +22,19 @@ public class Application {
                 System.out.println(pet.name+ "가 사망했습니다.");
                 return;
             } else {
-                System.out.println("이제 뭘 할까요? : ");
                 System.out.println("2. 해파리 공원 산책하기");
                 System.out.println("3. 먹기 (게살버거 : HP 10 상승 / 콜라 : MP 10 상승)");
                 System.out.println("4. 잠자기");
                 System.out.println("9. 프로그램 종료");
+                System.out.print("이제 뭘 할까요? : ");
+
                 Scanner scr = new Scanner(System.in);
                 int select = scr.nextInt();
                 if (select == 9) {
                     System.out.println("프로그램을 종료합니다.");
                     return;
                 }
-                    action(select);
+                    action(select); // 9(종료)가 아닐 시 스캐너 입력 값을 행위(action) 메소드에 전달 및 호출
             }
         }
     }
@@ -46,7 +47,7 @@ public class Application {
             System.out.print("캐릭터를 선택해 주세요 (1. 스폰지밥 2. 징징이 3. 뚱이 4. 핑핑이 5. 밍밍이) : ");
             int chose = scr.nextInt();
 
-            switch (chose) {
+            switch (chose) { // 캐릭터별 클래스 호출
                 case 1:
                     SpongeBob spongeBob = new SpongeBob();
                     spongeBob.Introduce();
@@ -79,21 +80,19 @@ public class Application {
                     System.out.println("잘못 누르셨습니다. 1~5번 중에 선택해 주세요.");
                     break;
             }
-            return 0;
+            return 0; // 프로그램 종료 (9)를 위한 리턴 구문
         }
     }
 
 
     public static void action(int select) {
 
-
-
         switch (select) {
             case 2:
-                pet.walk();
+                pet.walk(); // 산책 메서드 호출
                 break;
             case 3 :
-                while (true) {
+                while (true) { // 1 or 2 입력 값을 문자열에 담아 보냄과 동시에 return 받음
                     System.out.print("게살버거 먹기(1번) / 콜라 마시기(2번) : ");
                     Scanner scr2 = new Scanner(System.in);
                     int menu = scr2.nextInt();
@@ -107,12 +106,12 @@ public class Application {
                     }
                 }
             case 4 :
-                pet.deepSleep();
+                pet.deepSleep(); // 잠자는 메서드 호출
                 break;
-            case 9 :
+            case 9 : // 9번 누를시 종료 가능.
 
             default:
-                System.out.println();
+                System.out.println(); // 줄 띄기 용
         }
     }
 }

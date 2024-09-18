@@ -3,13 +3,13 @@ package com.ohgiraffers.finalHomework01;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Pet {
+public class Pet { // Pet 클래스를 (어미), 나머지 캐릭터 클래스를 상속함.
 
     public int hp;
     public int mp;
     public String name;
 
-    public void selected() {
+    public void selected() { // 처음 캐릭터 선택 시 호출 구문
         System.out.println(this.name + "을(를) 선택하셨습니다.");
         System.out.println(this.name + "의 HP는 " + hp + "이고, MP는 " + mp + " 입니다.");
     }
@@ -28,7 +28,6 @@ public class Pet {
         }
 
         poison();
-        // 이제 뭘 할까요 창으로 넘어가야..
 
     }
 
@@ -47,14 +46,13 @@ public class Pet {
             hp += 100;
         }
 
-        if (hp > 99) {
+        if (hp > 99) { // 총 HP 100으로 제한
             hp = 100;
         }
-        if (mp > 99) {
+        if (mp > 99) { // 총 MP 100으로 제한
             mp = 100;
         }
         System.out.println("현재 HP = " + this.hp + " MP = " + this.mp);
-        // 이제 뭘 할까요 창으로 넘어가야..
     }
 
 
@@ -79,12 +77,12 @@ public class Pet {
              }
          }
 
-        return menuName + "를 섭취했습니다. 현재 HP는" + this.hp + "이고, MP는" + this.mp + "입니다.";
+        return menuName + "를 섭취했습니다. 현재 HP는" + this.hp + "이고, MP는" + this.mp + "입니다."; // void 형이 아니기 때문에 String 값 return;
      }
 
     public void poison () { // 해파리 공격
         Random random = new Random();
-        int ran = random.nextInt(2);
+        int ran = random.nextInt(2); // 산책 시 50퍼센트 확률로 해파리 공격 당함.
 
         switch (ran) {
             case 1 :
@@ -95,7 +93,6 @@ public class Pet {
             default :
                 System.out.println("다행히 해파리는 당신을 인식하지 못했습니다.");
         }
-        // 이제 뭘 할까요 창으로 넘어가야..
 
     }
 
