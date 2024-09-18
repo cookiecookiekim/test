@@ -33,6 +33,8 @@
 - 밍밍이
 
   ![image](https://github.com/user-attachments/assets/80fed892-3284-4ddf-a4cd-fa6aff4a965d)
+  ![image](https://github.com/user-attachments/assets/320be5a0-ea08-40cd-a85b-89ff49ce1107)
+
 
 
 각 캐릭터 별로 HP와 MP가 상이합니다.
