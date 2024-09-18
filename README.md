@@ -1,19 +1,36 @@
 ![](https://i.namu.wiki/i/491DC0TNTbrxbr7VESPQsVkAW66Sev0oiCw4LliJCS0lFFo8ouPZg_c9soH3e9Jht52MpXJ7alhpopUg1ux8-gyGjRIUD8rrVztEdqDUbRLjfWL9LR9k0k-zmvcHMTC2wDADs4OoPqzeqMPijrgTBg.webp)
 
-해파리 동산의 캐릭터를 선택하여 키우는 스폰지밥 다마고치 게임~~
+# 스폰지밥 다마고치
+해파리 동산의 캐릭터를 선택하여 키우는 스폰지밥 다마고치 게임 입니다.
 
-# 캐릭터 설명
+---
+
+## 캐릭터 설명
 (스폰지밥 / 징징이 / 뚱이 / 핑핑이 / 밍밍이) 총 5개의 캐릭터가 있습니다.
 
+- 스폰지밥
+  ![image](https://github.com/user-attachments/assets/ba475c55-6c74-4736-8bd2-6ae002edf51a)
 
-- 밍밍이 -
+- 징징이
+![image](https://github.com/user-attachments/assets/4bbda15c-1a58-4abd-9030-6de6da381ba0)
+
+- 뚱이
+![image](https://github.com/user-attachments/assets/4e223978-52c8-42d5-a855-ef5deafff93b)
+
+- 핑핑이
+![image](https://github.com/user-attachments/assets/4f24a328-d3e9-4985-a87b-aa7aae6e25a3)
+
+- 밍밍이
   ![image](https://github.com/user-attachments/assets/80fed892-3284-4ddf-a4cd-fa6aff4a965d)
+
 
 각 캐릭터 별로 HP와 MP가 상이합니다.
 
 총 HP와 MP는 100으로 한정돼 있습니다.
 
-# 게임 세부 설명
+---
+
+## 게임 세부 설명
 게임의 세부 내용으로는 캐릭터 선택 이후 $해파리 공원 산책 , $게살버거와 콜라 섭취 , $잠 자기를 즐길 수 있으며, 9번을 누를 시 게임이 종료됩니다.
 
 HP가 1미만이 되면 캐릭터가 사망합니다.
