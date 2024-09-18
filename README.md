@@ -8,19 +8,30 @@
 ## 캐릭터 설명
 (스폰지밥 / 징징이 / 뚱이 / 핑핑이 / 밍밍이) 총 5개의 캐릭터가 있습니다.
 
+
+
 - 스폰지밥
+
   ![image](https://github.com/user-attachments/assets/ba475c55-6c74-4736-8bd2-6ae002edf51a)
+  
 
 - 징징이
+
 ![image](https://github.com/user-attachments/assets/4bbda15c-1a58-4abd-9030-6de6da381ba0)
 
+
 - 뚱이
+
 ![image](https://github.com/user-attachments/assets/4e223978-52c8-42d5-a855-ef5deafff93b)
 
+
 - 핑핑이
+
 ![image](https://github.com/user-attachments/assets/4f24a328-d3e9-4985-a87b-aa7aae6e25a3)
 
+
 - 밍밍이
+
   ![image](https://github.com/user-attachments/assets/80fed892-3284-4ddf-a4cd-fa6aff4a965d)
 
 
