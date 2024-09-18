@@ -10,27 +10,27 @@
 
 
 
-- 스폰지밥
+- 스폰지밥 (HP : 50 / MP : 50)
 
   ![image](https://github.com/user-attachments/assets/ba475c55-6c74-4736-8bd2-6ae002edf51a)
   
 
-- 징징이
+- 징징이 (HP : 40 / MP : 60)
 
 ![image](https://github.com/user-attachments/assets/4bbda15c-1a58-4abd-9030-6de6da381ba0)
 
 
-- 뚱이
+- 뚱이 (HP : 80 / MP : 20)
 
 ![image](https://github.com/user-attachments/assets/4e223978-52c8-42d5-a855-ef5deafff93b)
 
 
-- 핑핑이
+- 핑핑이 (HP : 30 / MP : 70)
 
 ![image](https://github.com/user-attachments/assets/4f24a328-d3e9-4985-a87b-aa7aae6e25a3)
 
 
-- 밍밍이
+- 밍밍이 (HP : 30 / MP : 70)
 
   ![image](https://github.com/user-attachments/assets/320be5a0-ea08-40cd-a85b-89ff49ce1107)
 
